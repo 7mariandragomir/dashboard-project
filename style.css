@@ -54,6 +54,8 @@ button:hover {
 /* GENERAL */
 
 body {
+
+  min-height: 100vh;
   font-family: sans-serif;
   color: var(--cl-content);
 
@@ -160,6 +162,7 @@ section {
   display: grid;
   grid-template-columns: 3fr 3fr 2fr;
   column-gap: 3rem;
+  row-gap: 1rem;
 
   padding: 3rem;
   background-color: var(--cl-bg-sec);
